@@ -26,7 +26,8 @@
             "allowedValues": [
                 "Standard_NV6_Promo",
                 "Standard_NV6",
-                "Standard_NV12s_v3"
+                "Standard_NV12s_v3",
+                "Standard_NV72ads_A10_v5"
             ],
             "metadata": {
                 "description": "The type of the VM to deploy. Note that only NV-series support gaming."
@@ -96,7 +97,7 @@
             "metadata": {
                 "description": "The time for daily auto-shutdown."
             },
-            "defaultValue": "23:00"
+            "defaultValue": "12:00"
         },
         "scriptLocation": {
             "type": "string",
@@ -145,8 +146,8 @@
         },
         "osTypeWindows10": {
             "publisher": "MicrosoftWindowsDesktop",
-            "offer": "windows-10",
-            "sku": "20h1-pro",
+            "offer": "windows-11",
+            "sku": "win11-22h2-avd",
             "version": "latest"
         }
     },
